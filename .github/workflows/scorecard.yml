@@ -12,6 +12,7 @@
 
 name: Scorecard supply-chain security
 on:
+  pull_request:
   # For Branch-Protection check. Only the default branch is supported. See
   # https://github.com/ossf/scorecard/blob/main/docs/checks.md#branch-protection
   branch_protection_rule:
